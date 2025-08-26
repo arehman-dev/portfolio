@@ -7,17 +7,17 @@
 
   <!-- Updated description that combines both focuses -->
   <meta name="description"
-    content="Abdul Rehman (arehman-dev) - Aspiring System Administrator & Frontend Developer focused on robust, secure systems and modern web development">
+    content="Abdul Rehman (arehman-dev) - Aspiring System Administrator & Python developer focused on robust, secure systems, CI/CD and automation">
   <meta name="author" content="Abdul Rehman">
 
   <!-- Enhanced keywords - keeping old ones + adding new ones + arehman-dev -->
   <meta name="keywords"
-    content="arehman-dev, Abdul Rehman, system administrator, Linux, Python, C++, infrastructure, DevOps, system administration, frontend developer, web developer, HTML5, CSS3, JavaScript, responsive design, portfolio, automation scripts, bash scripting, RHCSA, glassmorphism, dark theme, clean code">
+    content="arehman-dev, Abdul Rehman, system administrator, Linux, Python, C++, infrastructure, DevOps, system administration, frontend developer, web developer, HTML5, CSS3, JavaScript, responsive design, portfolio, clean code, accessibility, modern web development, user experience, UI/UX design, semantic HTML, mobile-first design, web standards, performance optimization, cross-browser compatibility, version control, GitHub, open source">
 
   <!-- Updated Open Graph tags -->
-  <meta property="og:title" content="Abdul Rehman (arehman-dev) - Aspiring System Administrator & Frontend Developer">
+  <meta property="og:title" content="Abdul Rehman (arehman-dev) - Aspiring System Administrator & Python developer">
   <meta property="og:description"
-    content="Aspiring System Administrator & Frontend Developer focused on robust, secure systems and modern web development">
+    content="Aspiring System Administrator & Python developer focused on robust, secure systems, CI/CD and automation">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://arehman-dev.github.io">
   <meta property="og:image" content="https://arehman-dev.github.io/assets/images/og-image.jpg">
@@ -25,9 +25,9 @@
 
   <!-- Updated Twitter tags -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Abdul Rehman (arehman-dev) - Aspiring System Administrator & Frontend Developer">
+  <meta name="twitter:title" content="Abdul Rehman (arehman-dev) - Aspiring System Administrator & Python developer">
   <meta name="twitter:description"
-    content="Aspiring System Administrator & Frontend Developer focused on robust, secure systems and modern web development">
+    content="Aspiring System Administrator & DevOps enthusiast focused on robust, secure systems, CI/CD and automation">
   <meta name="twitter:image" content="https://arehman-dev.github.io/assets/images/og-image.jpg">
   <meta name="twitter:creator" content="@arehman_dev">
 
@@ -42,13 +42,13 @@
 
   <!-- Favicons -->
   <link rel="icon" type="image/svg+xml"
-    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23333' stroke-width='2'><rect x='2' y='3' width='20' height='14' rx='2' ry='2'/><line x1='8' y1='21' x2='16' y2='21'/><line x1='12' y1='17' x2='12' y2='21'/><polyline points='6,7 10,11 6,15'/><line x1='13' y1='13' x2='17' y2='13'/></svg>">
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23333' stroke-width='2'><rect x='2' y='3' width='20' height='14' rx='2' ry='2'/><line x1='8' y1='21' x2='16' y2='21'/><line x1='12' y1='17' x2='12' y2='21'/></svg>">
   <link rel="icon" type="image/x-icon" href="assets/images/favicon/favicon.ico">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
 
   <!-- Updated title -->
-  <title>Abdul Rehman (arehman-dev) - Aspiring System Administrator & Frontend Developer</title>
+  <title>Abdul Rehman (arehman-dev) - Aspiring System Administrator & Python Developer</title>
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -76,10 +76,10 @@
         <a href="#projects" class="nav-link">Projects</a>
         <a href="#skills" class="nav-link">Skills</a>
         <a href="#experience" class="nav-link">Experience</a>
-        <a href="#contact" class="nav-link">Contact</a>
-        <a href="assets/documents/resume.pdf" class="btn btn-outline" target="_blank" rel="noopener">
+        <a href="assets/documents/resume-abdulrehman.pdf" class="btn-nav-outline" target="_blank" rel="noopener">
           <i class="fas fa-download"></i> Resume
         </a>
+        <a href="#contact" class="btn btn-outline">Hire Me</a> <!-- CHANGED: Contact → Hire Me -->
         <button class="theme-toggle" onclick="toggleTheme()" id="theme-icon" aria-label="Toggle theme">🌙</button>
       </div>
     </div>
@@ -93,18 +93,19 @@
     <a href="https://linkedin.com/in/arehman-dev" aria-label="LinkedIn" target="_blank" rel="noopener">
       <i class="fab fa-linkedin"></i>
     </a>
-    <a href="https://twitter.com/arehman_dev" aria-label="Twitter" target="_blank" rel="noopener">
-      <i class="fab fa-twitter"></i>
-    </a>
     <a href="https://dev.to/arehman-dev" aria-label="Dev.to" target="_blank" rel="noopener">
       <i class="fab fa-dev"></i>
     </a>
     <a href="https://medium.com/@arehman-dev" aria-label="Medium" target="_blank" rel="noopener">
       <i class="fab fa-medium"></i>
     </a>
-    <a href="https://reddit.com/u/arehman-dev" aria-label="Reddit" target="_blank" rel="noopener">
-      <i class="fab fa-reddit"></i>
+    <a href="https://twitter.com/arehman_dev" aria-label="Twitter" target="_blank" rel="noopener">
+      <i class="fab fa-twitter"></i>
     </a>
+    <!-- COMMENTED OUT: Reddit profile as requested -->
+    <!-- <a href="https://reddit.com/u/arehman-dev" aria-label="Reddit" target="_blank" rel="noopener">
+      <i class="fab fa-reddit"></i>
+    </a> -->
     <!-- <a href="https://codepen.io/arehman-dev" aria-label="CodePen" target="_blank" rel="noopener">
       <i class="fab fa-codepen"></i>
     </a> -->
@@ -167,7 +168,64 @@
       <!-- Carousel Container -->
       <div class="projects-carousel-wrapper">
         <div class="projects-carousel" id="projectsCarousel">
-          <!-- Project Card 1 - Portfolio Website (Current/Latest) -->
+
+          <!-- REORDERED PROJECTS AS REQUESTED -->
+
+          <!-- Project Card 1 - RHEL Home Server (renamed and reordered) -->
+          <div class="project-card slide-in">
+            <!-- <div class="project-status development">In Development</div> -->
+            <div class="project-header">
+              <div>
+                <h3 class="project-title">🏠 RHEL Home Server</h3>
+                <!-- RENAMED: Home Server Setup → RHEL Home Server -->
+                <p class="project-description">
+                  Personal home server infrastructure running on Red Hat Enterprise Linux for media streaming, file
+                  sharing, and network services.
+                  Focus on security, automation, and efficient resource management.
+                </p> <!-- UPDATED: Added RHEL mention -->
+              </div>
+            </div>
+            <div class="project-tags">
+              <span class="badge tech-backend">RHEL</span> <!-- ADDED: RHEL badge -->
+              <span class="badge tech-backend">Linux</span>
+              <span class="badge">Docker</span>
+              <span class="badge">Networking</span>
+              <span class="badge">Security</span>
+              <span class="badge secondary">In Progress</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn btn-primary" target="_blank">
+                <i class="fab fa-github"></i> Under construction
+              </a>
+            </div>
+          </div>
+
+          <!-- Project Card 2 - Weather Extension (reordered) -->
+          <div class="project-card slide-in">
+            <!-- <div class="project-status upcoming">Planning Phase</div> -->
+            <div class="project-header">
+              <div>
+                <h3 class="project-title">🌤️ Weather Extension</h3>
+                <p class="project-description">
+                  Browser extension providing real-time weather updates and forecasts. Clean interface with
+                  location-based weather data and customizable notification settings.
+                </p>
+              </div>
+            </div>
+            <div class="project-tags">
+              <span class="badge tech-frontend">JavaScript</span>
+              <span class="badge">Web APIs</span>
+              <span class="badge">Browser Extension</span>
+              <span class="badge secondary">Upcoming</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn btn-primary" target="_blank">
+                <i class="fab fa-github"></i> making in progress
+              </a>
+            </div>
+          </div>
+
+          <!-- Project Card 3 - Portfolio Website (reordered) -->
           <div class="project-card slide-in">
             <div class="project-header">
               <div>
@@ -195,7 +253,7 @@
             </div>
           </div>
 
-          <!-- Project Card 2 - My Scripts Collection -->
+          <!-- Project Card 4 - My Scripts Collection (reordered) -->
           <div class="project-card slide-in">
             <div class="project-header">
               <div>
@@ -221,48 +279,23 @@
             </div>
           </div>
 
-          <!-- Project Card 3 - Weather Extension (Upcoming) -->
+          <!-- Project Card 5 - NEW GNOME Extension (Prayer Notifier) -->
           <div class="project-card slide-in">
-            <!-- <div class="project-status upcoming">Planning Phase</div> -->
             <div class="project-header">
               <div>
-                <h3 class="project-title">🌤️ Weather Extension</h3>
+                <h3 class="project-title">🔔 GNOME Extension (Prayer Notifier)</h3>
                 <p class="project-description">
-                  Browser extension providing real-time weather updates and forecasts. Clean interface with
-                  location-based weather data and customizable notification settings.
+                  A GNOME shell extension that provides prayer time notifications for Muslim users with customizable
+                  settings and accurate prayer times.
                 </p>
               </div>
             </div>
             <div class="project-tags">
+              <span class="badge tech-backend">GNOME</span>
               <span class="badge tech-frontend">JavaScript</span>
-              <span class="badge">Web APIs</span>
-              <span class="badge">Browser Extension</span>
-              <span class="badge secondary">Upcoming</span>
-            </div>
-            <div class="project-links">
-              <a href="#" class="btn btn-primary" target="_blank">
-                <i class="fab fa-github"></i> making in progress
-              </a>
-            </div>
-          </div>
-          <!-- Project Card 4 - Home Server (Upcoming) -->
-          <div class="project-card slide-in">
-            <!-- <div class="project-status development">In Development</div> -->
-            <div class="project-header">
-              <div>
-                <h3 class="project-title">🏠 Home Server Setup</h3>
-                <p class="project-description">
-                  Personal home server infrastructure for media streaming, file sharing, and network services.
-                  Focus on security, automation, and efficient resource management.
-                </p>
-              </div>
-            </div>
-            <div class="project-tags">
+              <span class="badge tech-frontend">CSS</span>
               <span class="badge tech-backend">Linux</span>
-              <span class="badge">Docker</span>
-              <span class="badge">Networking</span>
-              <span class="badge">Security</span>
-              <span class="badge secondary">In Progress</span>
+              <span class="badge secondary">Concept</span>
             </div>
             <div class="project-links">
               <a href="#" class="btn btn-primary" target="_blank">
@@ -271,9 +304,8 @@
             </div>
           </div>
 
-          <!-- Project Card 5 - Muslim Toolkit Android App (Upcoming) -->
-          <div class="project-card slide-in">
-            <!-- <div class="project-status concept">Concept Phase</div> -->
+          <!-- COMMENTED OUT: Muslim Toolkit Android App as requested -->
+          <!-- <div class="project-card slide-in">
             <div class="project-header">
               <div>
                 <h3 class="project-title">📱 Muslim Toolkit</h3>
@@ -294,7 +326,8 @@
                 <i class="fab fa-github"></i> Under construction
               </a>
             </div>
-          </div>
+          </div> -->
+
         </div>
       </div>
 
@@ -337,11 +370,11 @@
                 <span class="skill-name"><!--Linux -->System Administration</span>
                 <span class="skill-level advanced">Advanced</span>
               </div>
-              <div class="skill-item">
+              <!-- <div class="skill-item">
                 <span class="skill-icon">🗂️</span>
                 <span class="skill-name">File Systems & Storage</span>
                 <span class="skill-level advanced">Advanced</span>
-              </div>
+              </div> -->
               <div class="skill-item">
                 <span class="skill-icon">🔐</span>
                 <span class="skill-name">Security & Hardening</span>
@@ -362,11 +395,11 @@
                 <span class="skill-name">Service Management<!-- (systemd)--></span>
                 <span class="skill-level intermediate">Intermediate</span>
               </div>
-              <div class="skill-item">
+              <!-- <div class="skill-item">
                 <span class="skill-icon">📦</span>
                 <span class="skill-name">Package Management</span>
                 <span class="skill-level intermediate">Intermediate</span>
-              </div>
+              </div> -->
             </div>
           </div>
 
@@ -403,8 +436,8 @@
             <!-- <h4 class="category-title">💻 Development Stack</h4> -->
             <div class="skill-list">
               <div class="skill-item">
-                <span class="skill-icon">🔧</span>
-                <span class="skill-name">Bash Scripting</span>
+                <span class="skill-icon">>_</span>
+                <span class="skill-name">Bash</span>
                 <span class="skill-level advanced">Advanced</span>
                 <!-- <span class="skill-badge automation">Automation</span> -->
               </div>
@@ -427,18 +460,17 @@
                 <span class="skill-level intermediate">Intermediate</span>
                 <!-- <span class="skill-badge web-dev">Web Dev</span> -->
               </div>
-              <div class="skill-item">
+              <!-- COMMENTED OUT: JavaScript and TypeScript as requested -->
+              <!-- <div class="skill-item">
                 <span class="skill-icon">🌐</span>
                 <span class="skill-name">JavaScript</span>
                 <span class="skill-level intermediate">Intermediate</span>
-                <!-- <span class="skill-badge web-dev">Web Dev</span> -->
               </div>
               <div class="skill-item">
                 <span class="skill-icon">📘</span>
                 <span class="skill-name">TypeScript</span>
                 <span class="skill-level beginner">Beginner</span>
-                <!-- <span class="skill-badge web-dev">Web Dev</span> -->
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
@@ -537,15 +569,16 @@
   <section id="contact" class="slide-in">
     <div class="container text-center">
       <div class="contact-header">
-        <h2>Let's Connect</h2>
+        <h2>Hire Me</h2> <!-- CHANGED: Let's Connect → Hire Me -->
         <p class="mb-lg">
-          Open to meaningful collaborations, knowledge sharing, and opportunities that align with
-          purposeful work and technical excellence.
+          Ready to work together? Let's discuss your next opportunity!
+          <!-- CHANGED: Open to meaningful collaborations, knowledge sharing, and opportunities that align with purposeful work and technical excellence. → Ready to work together? Let's discuss your next opportunity! -->
         </p>
       </div>
 
       <div class="card contact-card slide-in stagger-1">
-        <h3><i class="fas fa-handshake text-accent"></i> Collaboration Principles</h3>
+        <h3><i class="fas fa-handshake text-accent"></i> Let's Work Together</h3>
+        <!-- CHANGED: Collaboration Principles → Let's Work Together -->
 
         <div class="contact-grid">
           <div class="contact-item">

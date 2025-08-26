@@ -302,9 +302,37 @@ p {
     backdrop-filter: blur(5px);
 }
 
+.btn-nav-outline {
+    background: rgba(255, 255, 255, 0.05);
+    color: #397bc9 !important;
+    /* Direct blue-medium hex */
+    border: 2px solid #397bc9 !important;
+    /* Direct blue-medium hex */
+    backdrop-filter: blur(8px);
+    padding: var(--spacing-sm) var(--spacing-lg);
+    border-radius: 8px;
+    font-family: var(--font-mono);
+    font-size: var(--font-size-sm);
+    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-nav-outline:hover {
+    background: #f0f6ff !important;
+    /* Direct blue-lightest hex */
+    color: #397bc9 !important;
+    /* Direct blue-medium hex */
+    border-color: #397bc9 !important;
+    /* Direct blue-medium hex */
+    box-shadow: var(--shadow-md);
+    backdrop-filter: blur(12px);
+    text-decoration: none;
+}
+
 .btn:hover {
-    transform: translateY(-2px);
-    box-shadow: var(--shadow-lg);
+    /* transform: translateY(-2px); */
+    box-shadow: var(--shadow-md);
 }
 
 .btn-outline:hover {
