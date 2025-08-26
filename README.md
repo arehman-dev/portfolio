@@ -1,15 +1,17 @@
-# Abdul Rehman - Portfolio
+# Abdul Rehman - Portfolio v1
 
 A modern, responsive portfolio website showcasing my journey as a system administrator committed to excellence.
 
+⚡ **Live at** : [arehman-dev.github.io](https://arehman-dev.github.io)
+
 ## 🌟 Features
 
-- **Responsive Design**: Optimized for all devices and screen sizes
 - **Theme Switching**: Beautiful light/dark theme with user preference memory
 - **Glassmorphism**: Modern glass-effect UI elements in light theme
 - **Smooth Animations**: Professional scroll animations and transitions
-- **Accessibility**: WCAG AAA compliant with excellent contrast ratios
+- **Responsive Design**: Optimized for all devices and screen sizes
 - **Performance**: Optimized for fast loading and smooth interactions
+- **Accessibility**: WCAG AAA compliant with excellent contrast ratios
 
 ## 🎨 Design System
 
@@ -90,11 +92,12 @@ A modern, responsive portfolio website showcasing my journey as a system adminis
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 📞 Contact
+## 🖧 Contact
 
 - **Email**: arehman.sysadm@pm.me
 - **LinkedIn**: [arehman-dev](https://linkedin.com/in/arehman-dev)
 - **GitHub**: [arehman-dev](https://github.com/arehman-dev)
+- **Live Site**: [arehman-dev.github.io](https://arehman-dev.github.io)
 
 ---
 
