@@ -133,6 +133,7 @@
     --text-secondary: #cbd5e0;
     --text-muted: #a0aec0;
     --accent-color: var(--green-light);
+    --accent-color2: var(--blue-light);
     --cta-color: var(--blue-light);
     --success-color: var(--green-light);
     --border-color: #2d3748;
