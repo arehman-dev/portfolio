@@ -2,7 +2,7 @@
 
 A modern, responsive portfolio website showcasing my journey as a system administrator committed to excellence.
 
-⚡ **Live at** : [arehman-dev.github.io](https://arehman-dev.github.io)
+⚡ **Live at** : [arehman-dev.github.io/portfolio](https://arehman-dev.github.io/portfolio)
 
 ## 🌟 Features
 
@@ -65,7 +65,7 @@ A modern, responsive portfolio website showcasing my journey as a system adminis
 
 3. **Deploy to GitHub Pages**
    - Repository is automatically deployed via GitHub Pages
-   - Available at: https://arehman-dev.github.io
+   - Available at: https://arehman-dev.github.io/portfolio
 
 ## 📱 Browser Support
 
@@ -94,10 +94,10 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 🖧 Contact
 
-- **Email**: arehman.sysadm@pm.me
+- **Email**: arehman.dev@proton.me
 - **LinkedIn**: [arehman-dev](https://linkedin.com/in/arehman-dev)
 - **GitHub**: [arehman-dev](https://github.com/arehman-dev)
-- **Live Site**: [arehman-dev.github.io](https://arehman-dev.github.io)
+- **Live Site**: [arehman-dev.github.io/portfolio](https://arehman-dev.github.io/portfolio)
 
 ---
 
