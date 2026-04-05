@@ -1196,14 +1196,13 @@ section:first-of-type {
 
 .footer-link {
     font-family: var(--font-serif);
-    color: var(--accent-color);
+    color: var(--blue-medium);
     text-decoration: none;
-    border-bottom: 2px solid var(--accent-color);
     transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .footer-link:hover {
-    color: var(--green-medium);
+    color: var(--blue-medium);
     opacity: 0.8;
 }
 
