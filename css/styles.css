@@ -338,7 +338,7 @@ p {
 
 .btn-nav-outline:hover {
     background: var(--blue-medium);
-    color: white;
+    color: white !important;
     border-color: var(--blue-medium);
     transform: translateY(-2px);
     backdrop-filter: blur(12px);
@@ -1277,7 +1277,7 @@ section:first-of-type {
     background: var(--blue-light);
     color: var(--blue-darker);
     border-color: var(--blue-light);
-    box-shadow: 0 12px 24px -3px rgba(163, 196, 239, 0.5);
+    transform: translateY(-2px);
 }
 
 /* Dark theme Hire Me button */
