@@ -318,7 +318,8 @@ p {
 
 .btn-outline:hover {
     background: var(--accent-color);
-    color: white;
+    color: black !important;
+    /* color: white; */
     transform: translateY(-2px);
 }
 
