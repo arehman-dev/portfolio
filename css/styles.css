@@ -338,7 +338,7 @@ p {
 
 .btn-nav-outline:hover {
     background: var(--blue-medium);
-    color: white !important;
+    color: black !important;
     border-color: var(--blue-medium);
     transform: translateY(-2px);
     backdrop-filter: blur(12px);
@@ -1275,7 +1275,8 @@ section:first-of-type {
 
 [data-theme="dark"] .btn-nav-outline:hover {
     background: var(--blue-light);
-    color: var(--blue-darker);
+    color: black;
+    /* color: var(--blue-darker); */
     border-color: var(--blue-light);
     transform: translateY(-2px);
 }
