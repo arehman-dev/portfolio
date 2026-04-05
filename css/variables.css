@@ -66,6 +66,7 @@
     /* Typography Scale */
     --font-primary: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
     --font-mono: 'JetBrains Mono', 'Source Code Pro', 'Fira Code', Consolas, monospace;
+    --font-poppins: 'Poppins', -apple-system, BlinkMacSystemFont, sans-serif;
     --font-size-xs: 0.75rem;
     /* 12px */
     --font-size-sm: 0.825rem;

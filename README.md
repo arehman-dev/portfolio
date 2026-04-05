@@ -21,6 +21,8 @@ A modern, responsive portfolio website showcasing my journey as a system adminis
 - **Light Theme**: Enhanced gradients with glassmorphism
 - **Dark Theme**: Pure blacks (#0a0a0a) for OLED optimization
 
+**📖 Full details in [COLOR_PALETTE.md](COLOR_PALETTE.md)** — Browse comprehensive color system documentation, gradient definitions, and usage guidelines.
+
 ### Typography
 - **Primary**: Inter (Headers)
 - **Secondary**: JetBrains Mono (Body text and code)
