@@ -324,12 +324,9 @@ p {
 }
 
 .btn-nav-outline {
-    background: rgba(255, 255, 255, 0.05);
-    color: var(--accent-color2);
-    /* color: #397bc9 !important; */
-    /* Direct blue-medium hex */
-    border: 2px solid #397bc9 !important;
-    /* Direct blue-medium hex */
+    background: var(--green-lightest);
+    color: var(--accent-color);
+    border: 2px solid var(--accent-color);
     backdrop-filter: blur(8px);
     padding: var(--spacing-sm) var(--spacing-lg);
     border-radius: 8px;
@@ -341,13 +338,11 @@ p {
 }
 
 .btn-nav-outline:hover {
-    background: #f0f6ff !important;
-    /* Direct blue-lightest hex */
-    color: #397bc9 !important;
-    /* Direct blue-medium hex */
-    border-color: #397bc9 !important;
-    /* Direct blue-medium hex */
-    box-shadow: var(--shadow-md);
+    background: var(--accent-color);
+    color: white;
+    border-color: var(--accent-color);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 16px -2px rgba(1, 172, 106, 0.4);
     backdrop-filter: blur(12px);
     text-decoration: none;
 }
@@ -481,10 +476,8 @@ section:first-of-type {
     transform: scale(1.15);
     background: transparent;
     color: white;
-    border: 2px solid;
-    border-image: var(--gradient-accent) 1;
-    box-shadow: var(--shadow-md), inset 0 0 0 1px var(--green-medium);
-    animation: gradientBorder 0.3s ease-in-out;
+    border: 2px solid var(--green-medium);
+    box-shadow: var(--shadow-md);
 }
 
 /* Progress Bar */
@@ -1272,4 +1265,18 @@ section:first-of-type {
 [data-theme="dark"] .featured-projects-toggle:hover {
     background: var(--blue-light);
     color: var(--blue-darker);
+}
+
+/* Dark theme button adjustments */
+[data-theme="dark"] .btn-nav-outline {
+    background: rgba(142, 213, 171, 0.1);
+    color: var(--green-light);
+    border-color: var(--green-light);
+}
+
+[data-theme="dark"] .btn-nav-outline:hover {
+    background: var(--green-light);
+    color: var(--green-darker);
+    border-color: var(--green-light);
+    box-shadow: 0 8px 16px -2px rgba(142, 213, 171, 0.4);
 }
